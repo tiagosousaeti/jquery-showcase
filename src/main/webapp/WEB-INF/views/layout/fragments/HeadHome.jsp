@@ -5,6 +5,6 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />		
-		<link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet"></link>
-		<link href="<c:url value="/resources/css/font-awesome.min.css" />" rel="stylesheet"></link>
-		<link href="<c:url value="/resources/css/main.css" />" rel="stylesheet"></link>
+		<link href="<c:url value="/resources/layout/css/bootstrap.min.css" />" rel="stylesheet"></link>
+		<link href="<c:url value="/resources/layout/css/font-awesome.min.css" />" rel="stylesheet"></link>
+		<link href="<c:url value="/resources/custom/css/main.css" />" rel="stylesheet"></link>
