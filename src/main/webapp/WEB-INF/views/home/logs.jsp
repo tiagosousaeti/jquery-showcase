@@ -22,15 +22,10 @@
 			      		</ul>
 			      	</div>
 		      	</div>
-		      	<div id="commits2" class="mt3">
-		      		<div class="card">
-			      		<ul  class="list-group list-group-flush">		      		
-			      		</ul>
-			      	</div>
-		      	</div>
 			</div>
 		</main>		
 		<jsp:include page="/WEB-INF/views/layout/fragments/FooterHome.jsp"></jsp:include>
+		<script src="<c:url value="/resources/layout/js/bootstrap-notify.min.js" />" type="text/javascript"></script>
 		<script src="<c:url value="/resources/custom/js/logs.js" />" type="text/javascript"></script>		
 	</body>
 </html>

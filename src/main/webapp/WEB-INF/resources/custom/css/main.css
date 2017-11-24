@@ -1,6 +1,5 @@
-body {	
+body {
 }
-
 .mt1 {
 	margin: 79px 0px 0px 0px;
 }
@@ -11,6 +10,14 @@ body {
 
 .mt3 {
 	margin: 23px 0px 0px 0px;
+}
+
+.mt4 {
+	margin: 11px 0px 0px 0px;
+}
+
+.mt5 {
+	margin: 6px 0px 0px 0px;
 }
 
 .ml1 {

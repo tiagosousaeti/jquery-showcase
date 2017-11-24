@@ -27,6 +27,9 @@
 		
 		<!-- JSTL -->
 		<jstl.version>1.2</jstl.version>
+		
+		<!-- Jackson JSON -->
+		<jackson-core.version>2.9.2</jackson-core.version>
 	</properties>
 
 	<build>
@@ -83,6 +86,14 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>${jstl.version}</version>
+		</dependency>
+		
+		<!-- Jackson - JSON -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson-core.version}</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 </project>

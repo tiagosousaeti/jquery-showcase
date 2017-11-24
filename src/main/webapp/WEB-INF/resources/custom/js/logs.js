@@ -6,6 +6,7 @@ TSsmj.Logs = (function(){
 	}
 	
 	Logs.prototype.iniciar = function(){
+		$.notify("Hello World");
 		$.ajax({
 			url: 'https://api.github.com/repos/tiagosousaeti/spring-mvc-jsp/commits',
 			method: 'GET',
@@ -17,9 +18,22 @@ TSsmj.Logs = (function(){
 	
 	function sucesso(registros) {
 		$.each(registros, function(i, ivalue) {
-			//$('#commits').append($('<li  class="list-group-item">').text(registros[i].commit.message));
 			$('#commits').append($('<li  class="list-group-item">' + registros[i].commit.message + '<a href=' + registros[i].html_url + ' target="_blank" title="Ver no github"><i class="fa  fa-external-link  ml1"></i></a></li>'));
 		});
+		
+		
+		
+		$.notify({
+			// options
+			message: 'Logs carregados com sucesso' 
+		},{
+			// settings
+			type: 'info',
+			z_index: 1031,
+			delay: 5000,
+			timer: 1000
+		});
+
 	}
 	
 	function erro() {

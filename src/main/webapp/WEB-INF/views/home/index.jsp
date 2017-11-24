@@ -12,7 +12,7 @@
 	        	<div class="container">
 	          		<h1 class="display-3">Olá, usuário!</h1>
 	          		<p>Este projeto foi criado com Spring MVC usando páginas JSP.</p>
-	          		<p><a class="btn btn-primary btn-lg" href="/tssmj/sobre" role="button">Leia mais &raquo;</a></p>
+	          		<p><a class="btn btn-success btn-lg" href="/tssmj/sobre" role="button">Leia mais &raquo;</a></p>
 	        	</div>
 	      	</div>
 	      	<div class="container">

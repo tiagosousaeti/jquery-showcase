@@ -9,16 +9,21 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public ModelAndView index(){
-		return new ModelAndView("home/index");
+		return new ModelAndView("home/index").addObject("homeActive", "true");
 	}
 	
 	@GetMapping("/logs")
-	public ModelAndView versoes(){
-		return new ModelAndView("home/logs");
+	public ModelAndView logs(){
+		return new ModelAndView("home/logs").addObject("logActive", "true");
+	}
+	
+	@GetMapping("/mostruario")
+	public ModelAndView mostruario(){
+		return new ModelAndView("home/mostruario").addObject("mostruarioActive", "true");
 	}
 	
 	@GetMapping("/sobre")
 	public ModelAndView sobre(){
-		return new ModelAndView("home/sobre");
+		return new ModelAndView("home/sobre").addObject("sobreActive", "true");
 	}		
 }
