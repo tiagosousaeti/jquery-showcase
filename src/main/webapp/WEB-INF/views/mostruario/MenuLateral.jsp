@@ -17,7 +17,7 @@
 				</ul>
 				<ul class="col  list-unstyled">
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/event">Event</a></li>
-					<li class="text-center">Counter</li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/counter">Counter</a></li>
 					<li class="text-center">Validation</li>
 				</ul>
 			</div>

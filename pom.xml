@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.eti.tiagosousa</groupId>
 	<artifactId>Spring-mvc-jsp</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.1.0</version>
 	<packaging>war</packaging>
 	<name>Spring MVC usando JSP</name>
 

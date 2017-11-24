@@ -30,13 +30,30 @@ public class MostruarioAjaxController {
 	
 	@PutMapping(value = "/mostruario/ajax/eventKeyUp", consumes = { MediaType.APPLICATION_JSON_VALUE })
 	public @ResponseBody ResponseEntity<?> retornoAjaxEventKeyUp(@RequestBody String keyUp){
-		System.out.println(keyUp);
 		return ResponseEntity.ok(keyUp);
 	}
 	
 	@PutMapping(value = "/mostruario/ajax/eventBlur", consumes = { MediaType.APPLICATION_JSON_VALUE })
 	public @ResponseBody ResponseEntity<?> retornoAjaxEventBlur(@RequestBody String blur){
-		System.out.println(blur);
 		return ResponseEntity.ok(blur);
+	}
+	
+	@GetMapping(value = "/mostruario/ajax/counter")
+	public ModelAndView exibirAjaxCounter(){
+		return new ModelAndView("mostruario/ajax/counter").addObject("mostruarioActive", "true");
+	}
+	
+	private static int counter = 0;
+	
+	@PutMapping(value = "/mostruario/ajax/counterMais")
+	public @ResponseBody ResponseEntity<?> retornoAjaxCounterMais(){
+		counter++;
+		return ResponseEntity.ok(counter);
+	}
+	
+	@PutMapping(value = "/mostruario/ajax/counterMenos")
+	public @ResponseBody ResponseEntity<?> retornoAjaxCounterMenos(){
+		counter--;
+		return ResponseEntity.ok(counter);
 	}
 }

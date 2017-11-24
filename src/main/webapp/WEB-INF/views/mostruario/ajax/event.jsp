@@ -16,7 +16,7 @@
           			</div>
           			<div class="col-md-9">
           				<h1>Ajax - Event</h1>
-          				<p class="text-justify">O primeiro evento se chama KeyUp. Ao digitar o nome no campo, o mesmo será mostrado abaixo no mesmo instante.</p>
+          				<p class="text-justify">O primeiro evento se chama KeyUp. Ao digitar o valor no campo, o mesmo será enviado ao controller e, em seguida, mostrado abaixo.</p>
           				<hr>
           				<form>
 							<div class="form-group">
@@ -27,7 +27,7 @@
 						  		<span class="js-keyup-retorno"></span>
 						  	</div>
           				</form>
-          				<p class="text-justify">O segundo evento se chama Blur. Digite um valor para o campo blur, em seguida, pressione Tab ou clique fora. O valor será exibido só quando o campo perder o foco.</p>
+          				<p class="text-justify">O segundo evento se chama Blur. Digite um valor para o campo blur, em seguida, pressione Tab ou clique fora. Quando o campo perder o foco, o valor será enviado ao controller e, em seguida, exibido abaixo.</p>
           				<hr>
           				<form>
 							<div class="form-group">
