@@ -2,12 +2,10 @@ package br.eti.tiagosousa.smvcj.model.input.autocomplete;
 
 public class Country {
 
-	private String nome;
-	private String abreviacao;
+	private String nome;	
 
-	public Country(String nome, String abreviacao) {
-		this.nome = nome;
-		this.abreviacao = abreviacao;
+	public Country(String nome) {
+		this.nome = nome;		
 	}
 
 	public String getNome() {
@@ -16,13 +14,5 @@ public class Country {
 
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-
-	public String getAbreviacao() {
-		return abreviacao;
-	}
-
-	public void setAbreviacao(String abreviacao) {
-		this.abreviacao = abreviacao;
 	}
 }

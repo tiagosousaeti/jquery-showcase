@@ -25,7 +25,6 @@ public class InputAutoComplete {
 	}
 	
 	private List<Country> registros(){
-		return Arrays.asList(new Country("Brasil", "BRA"), new Country("Argentina", "ARG"));
+		return Arrays.asList(new Country("Brasil"), new Country("Argentina"));
 	}
-	
 }
