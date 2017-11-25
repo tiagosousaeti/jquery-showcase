@@ -6,7 +6,7 @@
 		<title>Spring MVC com JSP - Index</title>
 	</head>
 	<body>
-		<jsp:include page="/WEB-INF/views/layout/fragments/NavHome.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/layout/fragments/NavLogo.jsp"></jsp:include>
 		<main class="mt2" role="main">	
 	    	<div class="jumbotron">
 	        	<div class="container">
@@ -48,6 +48,6 @@
 				</div>
 	      	</div>
 	    </main>
-		<jsp:include page="/WEB-INF/views/layout/fragments/FooterHome.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/layout/fragments/FooterLogo.jsp"></jsp:include>
 	</body>
 </html>

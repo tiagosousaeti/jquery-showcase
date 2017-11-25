@@ -24,8 +24,8 @@
 		      	</div>
 			</div>
 		</main>		
-		<jsp:include page="/WEB-INF/views/layout/fragments/FooterHome.jsp"></jsp:include>
-		<script src="<c:url value="/resources/layout/js/bootstrap-notify.min.js" />" type="text/javascript"></script>
+		<jsp:include page="/WEB-INF/views/layout/fragments/FooterLogo.jsp"></jsp:include>
+		<script src="<c:url value="/resources/layout/js/plugins/bootstrap-notify.min.js" />" type="text/javascript"></script>
 		<script src="<c:url value="/resources/custom/js/logs.js" />" type="text/javascript"></script>		
 	</body>
 </html>

@@ -13,12 +13,12 @@
 				<ul class="col  list-unstyled">
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/basic">Basic</a></li>
 					<li class="text-center">Listener</li>
-					<li class="text-center">Process</li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/validation/hibernate">Validation H</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/event">Event</a></li>
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/counter">Counter</a></li>
-					<li class="text-center">Validation</li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/validation/jquery">Validation J</a></li>
 				</ul>
 			</div>
 		</div>
@@ -35,7 +35,7 @@
 			aria-labelledby="headingTwo" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center">AutoComplete</li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/autoComplete">AutoComplete</a></li>
 					<li class="text-center">Select One</li>
 					<li class="text-center">Switch</li>
 				</ul>

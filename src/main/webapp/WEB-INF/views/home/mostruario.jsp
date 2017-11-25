@@ -18,6 +18,6 @@
 		      	</div>
 			</div>
 	    </main>
-		<jsp:include page="/WEB-INF/views/layout/fragments/FooterHome.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/layout/fragments/FooterLogo.jsp"></jsp:include>
 	</body>
 </html>
