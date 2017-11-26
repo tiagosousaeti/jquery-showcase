@@ -52,20 +52,16 @@
 			<h5 class="mb-0">
 				<a class="text-white" style="text-decoration: none;"
 					data-toggle="collapse" href="#collapseThree" aria-expanded="false"
-					aria-controls="collapseThree"> Overlay </a>
+					aria-controls="collapseThree"> Data </a>
 			</h5>
 		</div>
 		<div id="collapseThree" class="collapse" role="tabpanel"
 			aria-labelledby="headingThree" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center">Auto</li>
-					<li class="text-center">Dumby</li>
-					<li class="text-center">Dumby</li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/data/dataTable">DateTable</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
-					<li class="text-center">Dumby</li>
-					<li class="text-center">Dumby</li>
 					<li class="text-center">Dumby</li>
 				</ul>
 			</div>
