@@ -41,7 +41,7 @@
 				</ul>
 				<ul class="col  list-unstyled">
 					<li class="text-center">Calendar</li>
-					<li class="text-center">Editor</li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/textEditor">TextEditor</a></li>
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/keyboard">Keyboard</a></li>
 				</ul>
 			</div>
