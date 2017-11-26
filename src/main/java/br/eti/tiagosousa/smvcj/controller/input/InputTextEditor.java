@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class InputTextEditor {
 	
 	@GetMapping(value = "/mostruario/input/textEditor")
-	public ModelAndView exibirInputAutoComplete(){
+	public ModelAndView exibirInputTextEditor(){
 		return new ModelAndView("mostruario/input/textEditor").addObject("mostruarioActive", "true");
 	}
 }

@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class InputSwitch {
 	
 	@GetMapping(value = "/mostruario/input/switch")
-	public ModelAndView exibirInputAutoComplete(){
+	public ModelAndView exibirInputSwitch(){
 		return new ModelAndView("mostruario/input/switch").addObject("mostruarioActive", "true");
 	}
 }

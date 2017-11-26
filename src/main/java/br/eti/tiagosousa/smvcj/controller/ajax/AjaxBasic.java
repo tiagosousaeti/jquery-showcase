@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class AjaxValidationJqueryController {
-	
-	@GetMapping(value = "/mostruario/ajax/validation/jquery")
-	public ModelAndView exibirAjaxValidationJquery(){
-		return new ModelAndView("mostruario/ajax/validationJquery").addObject("mostruarioActive", "true");
+public class AjaxBasic {
+
+	@GetMapping(value = "/mostruario/ajax/basic")
+	public ModelAndView exibirAjaxBasic(){
+		return new ModelAndView("mostruario/ajax/basic").addObject("mostruarioActive", "true");
 	}
 		
-	@PostMapping(value = "/mostruario/ajax/validation/jquery", consumes = { MediaType.APPLICATION_JSON_VALUE })
-	public @ResponseBody ResponseEntity<?> retornoAjaxValidationJquery(@RequestBody String nome){		
+	@PostMapping(value = "/mostruario/ajax/basic", consumes = { MediaType.APPLICATION_JSON_VALUE })
+	public @ResponseBody ResponseEntity<?> retornoAjaxBasic(@RequestBody String nome){		
 		return ResponseEntity.ok(nome);
 	}
 }

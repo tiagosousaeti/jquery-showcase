@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class InputKeyboard {
+public class InputSelect {
 
-	@GetMapping(value = "/mostruario/input/keyboard")
-	public ModelAndView exibirInputKeyboard(){
-		return new ModelAndView("mostruario/input/keyboard").addObject("mostruarioActive", "true");
+	@GetMapping(value = "/mostruario/input/select")
+	public ModelAndView exibirInputSelect(){
+		return new ModelAndView("mostruario/input/select").addObject("mostruarioActive", "true");
 	}
 }

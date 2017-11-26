@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 import br.eti.tiagosousa.smvcj.model.ajax.validation.hibernate.Pessoa;
 
 @Controller
-public class AjaxValidationHibernateController {
+public class AjaxValidationHibernate {
 	
 	@GetMapping(value = "/mostruario/ajax/validation/hibernate")
 	public ModelAndView exibirAjaxValidationHibernate(Pessoa pessoa){
