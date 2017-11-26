@@ -37,7 +37,7 @@
 				<ul class="col  list-unstyled">
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/autoComplete">AutoComplete</a></li>
 					<li class="text-center">Select One</li>
-					<li class="text-center">Switch</li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/switch">Switch</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
 					<li class="text-center">Calendar</li>
