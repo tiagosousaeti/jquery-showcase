@@ -67,4 +67,24 @@
 			</div>
 		</div>
 	</div>
+	<div class="card">
+		<div class="card-header  bg-primary" role="tab" id="headingFour">
+			<h5 class="mb-0">
+				<a class="text-white" style="text-decoration: none;"
+					data-toggle="collapse" href="#collapseFour" aria-expanded="false"
+					aria-controls="collapseFour"> Messages </a>
+			</h5>
+		</div>
+		<div id="collapseFour" class="collapse" role="tabpanel"
+			aria-labelledby="headingFour" data-parent="#accordion">
+			<div class="row  mt4">
+				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/messages/growl">Growl</a></li>
+				</ul>
+				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/messages/messages">Messages</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
