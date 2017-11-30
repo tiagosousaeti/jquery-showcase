@@ -1,8 +1,8 @@
 var TSsmj = TSsmj || {};
 
-TSsmj.InputGrowl = (function(){
+TSsmj.Growl = (function(){
 	
-	function InputGrowl(){
+	function Growl(){
 		this.inputMensagem = $('#inputMensagem');
 		this.buttonDefault = $('.js-button-default');
 		this.buttonSuccess = $('.js-button-success');
@@ -10,7 +10,7 @@ TSsmj.InputGrowl = (function(){
 		this.buttonDanger = $('.js-button-danger');
 	}
 	
-	InputGrowl.prototype.iniciar = function(){
+	Growl.prototype.iniciar = function(){
 		this.buttonDefault.on('click', onButtonDefaultClick.bind(this));
 		this.buttonSuccess.on('click', onButtonSuccessClick.bind(this));
 		this.buttonWarning.on('click', onButtonWarningClick.bind(this));
@@ -33,10 +33,10 @@ TSsmj.InputGrowl = (function(){
 		$.growl.error({ title: "Error", message: this.inputMensagem.val() });
 	}
 	
-	return InputGrowl;	
+	return Growl;	
 }());
 
 $(function() {
-	var inputGrowl = new TSsmj.InputGrowl();
-	inputGrowl.iniciar();
+	var growl = new TSsmj.Growl();
+	growl.iniciar();
 });

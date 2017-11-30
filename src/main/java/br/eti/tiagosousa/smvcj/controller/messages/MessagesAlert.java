@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class MessagesGrowl {
+public class MessagesAlert {
 
-	@GetMapping(value = "/mostruario/messages/growl")
-	public ModelAndView exibirMessagesGrowl(){
-		return new ModelAndView("mostruario/messages/growl").addObject("mostruarioActive", "true");
+	@GetMapping(value = "/mostruario/messages/alert")
+	public ModelAndView exibirMessagesAlert(){
+		return new ModelAndView("mostruario/messages/alert").addObject("mostruarioActive", "true");
 	}
 }

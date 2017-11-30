@@ -79,11 +79,11 @@
 			aria-labelledby="headingFour" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/messages/growl">Growl</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/messages/alert">Alert</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/messages/messages">Messages</a></li>
-				</ul>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/messages/growl">Growl</a></li>
+				</ul>				
 			</div>
 		</div>
 	</div>
