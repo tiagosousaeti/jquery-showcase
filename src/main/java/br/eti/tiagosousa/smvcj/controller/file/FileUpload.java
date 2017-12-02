@@ -13,7 +13,7 @@ import br.eti.tiagosousa.smvcj.model.file.upload.Arquivo;
 import br.eti.tiagosousa.smvcj.model.file.upload.ArquivoImportadoRunnable;
 
 @Controller
-public class Upload {
+public class FileUpload {
 
 	@GetMapping(value = "/mostruario/file/upload")
 	public ModelAndView exibirFileUpload(){
