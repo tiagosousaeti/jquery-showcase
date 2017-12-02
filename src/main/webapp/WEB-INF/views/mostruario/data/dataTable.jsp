@@ -3,12 +3,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		<jsp:include page="/WEB-INF/views/layout/fragments/HeadHome.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
 		<title>Spring MVC com JSP - Mostruário - Input DataTable</title>
 		<link href="<c:url value="/resources/layout/css/plugins/jquery.dataTables/bootstrap.css" />" rel="stylesheet"></link>		
 	</head>
 	<body>
-		<jsp:include page="/WEB-INF/views/layout/fragments/NavLogo.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/layout/fragments/Nav.jsp"></jsp:include>
 		<main role="main" class="mt1">
         	<div class="container-fluid">
         		<div class="row">
@@ -446,7 +446,7 @@
 		      	</div>
 			</div>
 	    </main>
-		<jsp:include page="/WEB-INF/views/layout/fragments/FooterLogo.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/layout/fragments/Footer.jsp"></jsp:include>
 		<script src="<c:url value="/resources/layout/js/plugins/jquery.dataTables.min.js" />" type="text/javascript"></script>
 		<script src="<c:url value="/resources/layout/js/plugins/jquery.dataTables/dataTables.bootstrap4.min.js" />" type="text/javascript"></script>
 		<script type="text/javascript">

@@ -2,11 +2,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		<jsp:include page="/WEB-INF/views/layout/fragments/HeadHome.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
 		<title>Spring MVC com JSP - Index</title>
 	</head>
 	<body>
-		<jsp:include page="/WEB-INF/views/layout/fragments/NavLogo.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/layout/fragments/Nav.jsp"></jsp:include>
 		<main class="mt2" role="main">	
 	    	<div class="jumbotron">
 	        	<div class="container">
@@ -48,6 +48,6 @@
 				</div>
 	      	</div>
 	    </main>
-		<jsp:include page="/WEB-INF/views/layout/fragments/FooterLogo.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/layout/fragments/Footer.jsp"></jsp:include>
 	</body>
 </html>

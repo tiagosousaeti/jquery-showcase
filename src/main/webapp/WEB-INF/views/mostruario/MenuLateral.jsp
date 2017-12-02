@@ -107,4 +107,24 @@
 			</div>
 		</div>
 	</div>
+	<div class="card">
+		<div class="card-header  bg-primary" role="tab" id="headingSix">
+			<h5 class="mb-0">
+				<a class="text-white" style="text-decoration: none;"
+					data-toggle="collapse" href="#collapseSix" aria-expanded="false"
+					aria-controls="collapseSix"> Panel </a>
+			</h5>
+		</div>
+		<div id="collapseSix" class="collapse" role="tabpanel"
+			aria-labelledby="headingSix" data-parent="#accordion">
+			<div class="row  mt4">
+				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/panel/notificationBar">Notification Bar</a></li>
+				</ul>
+				<ul class="col  list-unstyled">
+					<li class="text-center">Dumby</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
