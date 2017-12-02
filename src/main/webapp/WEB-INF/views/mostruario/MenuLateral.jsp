@@ -87,4 +87,24 @@
 			</div>
 		</div>
 	</div>
+	<div class="card">
+		<div class="card-header  bg-primary" role="tab" id="headingFive">
+			<h5 class="mb-0">
+				<a class="text-white" style="text-decoration: none;"
+					data-toggle="collapse" href="#collapseFive" aria-expanded="false"
+					aria-controls="collapseFive"> File </a>
+			</h5>
+		</div>
+		<div id="collapseFive" class="collapse" role="tabpanel"
+			aria-labelledby="headingFive" data-parent="#accordion">
+			<div class="row  mt4">
+				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/file/download">Download</a></li>
+				</ul>
+				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/file/upload">Upload</a></li>
+				</ul>				
+			</div>
+		</div>
+	</div>
 </div>

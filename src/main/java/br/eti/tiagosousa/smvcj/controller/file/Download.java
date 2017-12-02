@@ -23,12 +23,12 @@ public class Download {
     private ServletContext context;
 	
 	@GetMapping(value = "/mostruario/file/download")
-	public ModelAndView exibirMessagesAlert(){
+	public ModelAndView exibirFileDownload(){
 		return new ModelAndView("mostruario/file/download").addObject("mostruarioActive", "true");
 	}
 	
 	@GetMapping(value = "/mostruario/file/imageInServer")
-	public @ResponseBody void baixarArquivoNoServidor(HttpServletResponse response) throws IOException {
+	public @ResponseBody void retornoFileDownload(HttpServletResponse response) throws IOException {
 		String folderInServer = context.getRealPath("/WEB-INF/resources/custom/img/");
 		File file = new File(folderInServer + File.separator + "spring-mvc.png");
 		if (!file.exists()){
