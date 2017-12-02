@@ -5,7 +5,9 @@
 
 ## Clonando o projeto
 *** Requer o Git instalado na sua máquina
+
 Abra o terminal e digite: 'git clone https://github.com/tiagosousaeti/spring-mvc-jsp'
+
 O git se encarregará de baixar o repositório
 
 ## Dependências

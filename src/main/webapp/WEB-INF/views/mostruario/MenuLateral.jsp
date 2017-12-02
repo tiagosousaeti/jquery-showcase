@@ -119,9 +119,11 @@
 			aria-labelledby="headingSix" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/panel/card">Card</a></li>
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/panel/notificationBar">Notification Bar</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/panel/sideBar">Side Bar</a></li>
 					<li class="text-center">Dumby</li>
 				</ul>
 			</div>
