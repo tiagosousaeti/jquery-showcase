@@ -3,7 +3,7 @@ var TSsmj = TSsmj || {};
 TSsmj.PanelNotificationBar = (function(){
 	
 	function PanelNotificationBar(){
-		var bar = "";		 
+		var bar = "";
 		this.btnMostrar = $('.js-button-mostrar');
 		this.btnEsconder = $('.js-button-esconder');
 	}
