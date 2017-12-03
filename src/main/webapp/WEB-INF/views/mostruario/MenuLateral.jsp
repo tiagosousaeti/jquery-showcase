@@ -11,14 +11,14 @@
 			aria-labelledby="headingOne" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/basic">Basic</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/dropdown">Dropdown</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/validation/hibernate">Validation H</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/ajax/basic">Basic</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/ajax/dropdown">Dropdown</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/ajax/validation/hibernate">Validation H</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/event">Event</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/counter">Counter</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/ajax/validation/jquery">Validation J</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/ajax/event">Event</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/ajax/counter">Counter</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/ajax/validation/jquery">Validation J</a></li>
 				</ul>
 			</div>
 		</div>
@@ -35,14 +35,14 @@
 			aria-labelledby="headingTwo" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/autoComplete">AutoComplete</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/select">Select</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/switch">Switch</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/autoComplete">AutoComplete</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/select">Select</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/switch">Switch</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/datepicker">Datepicker</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/textEditor">TextEditor</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/input/keyboard">Keyboard</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/datepicker">Datepicker</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/textEditor">TextEditor</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/keyboard">Keyboard</a></li>
 				</ul>
 			</div>
 		</div>
@@ -59,7 +59,7 @@
 			aria-labelledby="headingThree" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/data/dataTable">DateTable</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/data/dataTable">DateTable</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
 					<li class="text-center">Dumby</li>
@@ -79,10 +79,10 @@
 			aria-labelledby="headingFour" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/messages/alert">Alert</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/messages/alert">Alert</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/messages/growl">Growl</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/messages/growl">Growl</a></li>
 				</ul>				
 			</div>
 		</div>
@@ -99,10 +99,10 @@
 			aria-labelledby="headingFive" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/file/download">Download</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/file/download">Download</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/file/upload">Upload</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/file/upload">Upload</a></li>
 				</ul>				
 			</div>
 		</div>
@@ -119,11 +119,11 @@
 			aria-labelledby="headingSix" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/panel/card">Card</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/panel/notificationBar">Notification Bar</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/card">Card</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/notificationBar">Notification Bar</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario/panel/sideBar">Side Bar</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/sideBar">Side Bar</a></li>
 					<li class="text-center">Dumby</li>
 				</ul>
 			</div>

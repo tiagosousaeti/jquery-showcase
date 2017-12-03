@@ -16,7 +16,7 @@ TSsmj.AjaxEvent = (function(){
 	
 	function onInputKeyUp(){
 		$.ajax({
-			url: '/tssmj/mostruario/ajax/eventKeyUp',
+			url: '/jqueryshowcase/mostruario/ajax/eventKeyUp',
 			method: 'PUT',
 			contentType: 'application/json',
 			data: JSON.stringify({ keyUp: this.inputUp.val() }),
@@ -25,13 +25,12 @@ TSsmj.AjaxEvent = (function(){
 	}
 	
 	function sucessoKeyUp(retorno) {
-		//this.keyUpRetorno.text(this.inputUp.val());		
 		this.keyUpRetorno.text(JSON.parse(retorno).keyUp);
 	}
 	
 	function onInputBlur(){
 		$.ajax({
-			url: '/tssmj/mostruario/ajax/eventBlur',
+			url: '/jqueryshowcase/mostruario/ajax/eventBlur',
 			method: 'PUT',
 			contentType: 'application/json',
 			data: JSON.stringify({ blur: this.inputBlur.val() }),
@@ -40,7 +39,6 @@ TSsmj.AjaxEvent = (function(){
 	}
 	
 	function sucessoBlur(retorno) {
-		//this.blurRetorno.text(this.inputBlur.val());
 		this.blurRetorno.text(JSON.parse(retorno).blur);
 	}
 	

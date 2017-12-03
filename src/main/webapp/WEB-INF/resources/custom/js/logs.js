@@ -7,7 +7,7 @@ TSsmj.Logs = (function(){
 	
 	Logs.prototype.iniciar = function(){
 		$.ajax({
-			url: 'https://api.github.com/repos/tiagosousaeti/spring-mvc-jsp/commits',
+			url: 'https://api.github.com/repos/tiagosousaeti/jquery-showcase/commits',
 			method: 'GET',
 			contentType: 'application/json',
 			success: sucesso.bind(this),
@@ -21,10 +21,8 @@ TSsmj.Logs = (function(){
 		});
 		
 		$.notify({
-			// options
 			message: 'Logs carregados com sucesso' 
 		},{
-			// settings
 			type: 'info',
 			z_index: 1031,
 			delay: 5000,
@@ -34,7 +32,14 @@ TSsmj.Logs = (function(){
 	}
 	
 	function erro() {
-		console.log('ERRO');
+		$.notify({
+			message: 'Erro ao buscar as informações no Github' 
+		},{
+			type: 'error',
+			z_index: 1031,
+			delay: 5000,
+			timer: 1000
+		});
 	}
 	
 	return Logs;	

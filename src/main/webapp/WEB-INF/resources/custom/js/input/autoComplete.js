@@ -9,7 +9,7 @@ TSsmj.InputAutoComplete = (function(){
 	InputAutoComplete.prototype.iniciar = function(){
 		var options = {
 			url: function() {
-				return '/tssmj/mostruario/input/autoComplete/countries'
+				return '/jqueryshowcase/mostruario/input/autoComplete/countries'
 			},
 			getValue: "nome",
 			ajaxSettings: {

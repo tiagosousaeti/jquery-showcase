@@ -12,7 +12,7 @@ TSsmj.FileUpload = (function(){
 			type: 'json',
 			filelimit: 1,
 			allow: '*.(jpg|png)',
-			action: '/tssmj/mostruario/file/upload',
+			action: '/jqueryshowcase/mostruario/file/upload',
 			complete: onUploadCompleto.bind(this)
 		};
 		

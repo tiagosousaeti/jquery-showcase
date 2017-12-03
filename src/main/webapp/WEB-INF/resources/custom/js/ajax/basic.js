@@ -14,7 +14,7 @@ TSsmj.AjaxBasic = (function(){
 	
 	function onBtnEnviarClick(){
 		$.ajax({
-			url: '/tssmj/mostruario/ajax/basic',
+			url: '/jqueryshowcase/mostruario/ajax/basic',
 			method: 'POST',
 			contentType: 'application/json',
 			data: JSON.stringify({ nome: this.inputNome.val() }),

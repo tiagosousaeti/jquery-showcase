@@ -12,16 +12,16 @@
 			</ul>
 			<ul class="navbar-nav  ml-auto">
 				<li class="nav-item  nbpadding">
-					<a class="nav-link  ${homeActive ? 'active' : ''}" href="/tssmj/">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link  ${homeActive ? 'active' : ''}" href="/jqueryshowcase/">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item  nbpadding">
-					<a class="nav-link  ${mostruarioActive ? 'active' : ''}" href="/tssmj/mostruario">Mostruário</a>
+					<a class="nav-link  ${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario">Mostruário</a>
 				</li>
 				<li class="nav-item  nbpadding">
-					<a class="nav-link  ${logActive ? 'active' : ''}" href="/tssmj/logs">Github Logs</a>
+					<a class="nav-link  ${logActive ? 'active' : ''}" href="/jqueryshowcase/logs">Github Logs</a>
 				</li>
 				<li class="nav-item  nbpadding">
-					<a class="nav-link  ${sobreActive ? 'active' : ''}" href="/tssmj/sobre">Sobre</a>
+					<a class="nav-link  ${sobreActive ? 'active' : ''}" href="/jqueryshowcase/sobre">Sobre</a>
 				</li>
 			</ul>
 		</div>

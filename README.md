@@ -1,12 +1,15 @@
-# Projeto Spring MVC usando JavaServer Pages (JSP)
+# Jquery Showcase 
+
+### Objetivo
+Criar um mostuário de exemplos Jquery conciliado ao Spring MVC
 
 ### Versão
-1.0.2.3
+1.0.2.7
 
 ## Clonando o projeto
 *** Requer o Git instalado na sua máquina
 
-Abra o terminal e digite: 'git clone https://github.com/tiagosousaeti/spring-mvc-jsp'
+Abra o terminal e digite: 'git clone https://github.com/tiagosousaeti/jquery-showcase'
 
 O git se encarregará de baixar o repositório
 

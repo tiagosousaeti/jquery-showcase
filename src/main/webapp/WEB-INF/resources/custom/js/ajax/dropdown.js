@@ -14,7 +14,7 @@ TSsmj.AjaxDropdown = (function(){
 	function onSelectEstadoChange(){
 		if (this.selectEstado.val()) {
 			$.ajax({
-				url: '/tssmj/mostruario/ajax/dropdown/cidades',
+				url: '/jqueryshowcase/mostruario/ajax/dropdown/cidades',
 				method: 'GET',
 				contentType: 'application/json',
 				data: { 'estado': this.selectEstado.val() }, 

@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.eti.tiagosousa</groupId>
 	<artifactId>Spring-mvc-jsp</artifactId>
-	<version>1.0.2.3</version>
+	<version>1.0.2.7</version>
 	<packaging>war</packaging>
-	<name>Spring MVC usando JSP</name>
+	<name>Jquery Showcase</name>
 
 	<organization>
 		<name>Tiago Sousa</name>
@@ -47,7 +47,7 @@
 			</plugin>
 		</plugins>
 
-		<finalName>tssmj</finalName>
+		<finalName>jqueryshowcase</finalName>
 	</build>
 
 	<dependencyManagement>

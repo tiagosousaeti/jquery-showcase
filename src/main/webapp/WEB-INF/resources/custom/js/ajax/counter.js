@@ -15,7 +15,7 @@ TSsmj.AjaxCounter = (function(){
 	
 	function onBtnAumentarClick(){
 		$.ajax({
-			url: '/tssmj/mostruario/ajax/counterMais',
+			url: '/jqueryshowcase/mostruario/ajax/counterMais',
 			method: 'PUT',
 			contentType: 'application/json',
 			success: sucesso.bind(this)			
@@ -24,7 +24,7 @@ TSsmj.AjaxCounter = (function(){
 	
 	function onBtnDiminuirClick(){
 		$.ajax({
-			url: '/tssmj/mostruario/ajax/counterMenos',
+			url: '/jqueryshowcase/mostruario/ajax/counterMenos',
 			method: 'PUT',
 			contentType: 'application/json',			
 			success: sucesso.bind(this)			
