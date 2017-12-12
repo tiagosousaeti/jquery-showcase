@@ -16,7 +16,7 @@
           			<div class="col-md-9">
 		          		<h3 class="display-4">Introdução</h3>
 		          		<h4 class="mt3">Os exemplos estão listados no menu a esquerda utilize-o para navegar.</h4>
-		          		<p class="mt3"></p>
+		          		<p class="mt3">Envie sugestões para <a href="mailto:contato@tiagosousa.eti.br">contato@tiagosousa.eti.br</a></p>
 					</div>
 		      	</div>
 			</div>

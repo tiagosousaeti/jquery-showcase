@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class SideBar {
 
 	@GetMapping(value = "/mostruario/overlay/sideBar")
-	public ModelAndView exibirAjaxBasic(){
+	public ModelAndView exibirOverlaySideBar(){
 		return new ModelAndView("mostruario/overlay/sideBar").addObject("mostruarioActive", "true");
 	}
 }

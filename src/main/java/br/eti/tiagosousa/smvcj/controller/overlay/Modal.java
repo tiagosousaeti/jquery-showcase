@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class Tooltip {
+public class Modal {
 
-	@GetMapping(value = "/mostruario/overlay/toolTip")
-	public ModelAndView exibirOverlayTooltip(){
-		return new ModelAndView("mostruario/overlay/toolTip").addObject("mostruarioActive", "true");
+	@GetMapping(value = "/mostruario/overlay/modal")
+	public ModelAndView exibirOverlayModal(){
+		return new ModelAndView("mostruario/overlay/modal").addObject("mostruarioActive", "true");
 	}
 }
