@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Panel Notification Bar</title>
+		<title>.: Panel Notification Bar - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/plugins/jquery.peekabar.min.css" />" rel="stylesheet"></link>
 		<link href="<c:url value="/resources/custom/css/panel/notificationBar.css" />" rel="stylesheet"></link>
 	</head>

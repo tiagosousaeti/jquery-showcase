@@ -19,16 +19,6 @@ TSsmj.Logs = (function(){
 		$.each(registros, function(i, ivalue) {
 			$('#commits').append($('<li  class="list-group-item">' + registros[i].commit.message + '<a href=' + registros[i].html_url + ' target="_blank" title="Ver no github"><i class="fa  fa-external-link  ml1"></i></a></li>'));
 		});
-		
-		$.notify({
-			message: 'Logs carregados com sucesso' 
-		},{
-			type: 'info',
-			z_index: 1031,
-			delay: 5000,
-			timer: 1000
-		});
-
 	}
 	
 	function erro() {

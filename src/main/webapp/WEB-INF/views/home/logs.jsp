@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>		
-		<title>Spring MVC com JSP - Github Logs</title>
+		<title>.: Logs - Jquery Showcase - Tiago Sousa :.</title>
 	</head>
 	<body>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Nav.jsp"></jsp:include>
@@ -12,12 +12,12 @@
         	<div class="container">
         		<div class="row">
         			<div class="col-md-12">
-	          			<h1>Logs</h1>
-	          			<p class="lead">O projeto foi versionado e hospedado no github. O repositório é público. Aceito sugestões para melhoria do projeto.</p>
+	          			<h3 class="display-4">Logs</h3>
+	          			<p class="lead">O projeto foi versionado e hospedado no github. O repositório é público. Sugestões para melhoria do projeto são bem-vindas</p>
           			</div>
           		</div>        	
 		      	<div class="row  mt3">
-		      		<div class="card">
+		      		<div class="card  col-md-12">
 			      		<ul id="commits" class="list-group list-group-flush">		      		
 			      		</ul>
 			      	</div>

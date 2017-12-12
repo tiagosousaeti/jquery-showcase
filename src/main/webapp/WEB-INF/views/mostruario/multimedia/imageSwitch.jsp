@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>.: Ajax Basic - Jquery Showcase - Tiago Sousa :.</title>
+		<title>.: Multimedia Image Switch - Jquery Showcase - Tiago Sousa :.</title>
 	</head>
 	<body>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Nav.jsp"></jsp:include>
@@ -15,24 +15,18 @@
         				<jsp:include page="/WEB-INF/views/mostruario/MenuLateral.jsp"></jsp:include>
           			</div>
           			<div class="col-md-9">
-          				<h1>Ajax - Basic</h1>
-          				<p class="text-justify">Este é um exemplo básico usando Ajax. Ao digitar o nome no campo e clicar no botão enviar, o nome será mostrado abaixo no mesmo instante.</p>
+          				<h1>Multimedia - Image Switch</h1>
+          				<p class="text-justify">Image Switch</p>
+          				<h5>Powered by: <a href="http://rewish.github.io/jquery-bgswitcher/" target="_blank" title="Jquery BgSwitcher">BgSwitcher</a></h5>
           				<hr>
-          				<form>
-							<div class="form-group">
-								<label for="inputNome" class="col-form-label">Nome</label>
-								<input type="text" class="form-control" id="inputNome" aria-describedby="nome" placeholder="Digite o nome" />
-							</div>
-							<button id="btnEnviar" type="button" class="btn btn-primary">Enviar</button>								
-						  	<div class="form-group  mt4">
-						  		<span class="js-span-retorno"></span>
-						  	</div>
-          				</form>
+          				<div class="box">
+						</div>
 					</div>
 		      	</div>
 			</div>
 	    </main>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Footer.jsp"></jsp:include>
-		<script src="<c:url value="/resources/custom/js/ajax/basic.js" />" type="text/javascript"></script>
+		<script src="<c:url value="/resources/layout/js/plugins/jquery.bgswitcher.js" />" type="text/javascript"></script>
+		<script src="<c:url value="/resources/custom/js/multimedia/imageSwitch.js" />" type="text/javascript"></script>
 	</body>
 </html>

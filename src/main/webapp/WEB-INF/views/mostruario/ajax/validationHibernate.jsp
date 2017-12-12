@@ -5,7 +5,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Ajax Validation Hibernate</title>
+		<title>.: Ajax Validation Hibernate - Jquery Showcase - Tiago Sousa :.</title>
 	</head>
 	<body>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Nav.jsp"></jsp:include>

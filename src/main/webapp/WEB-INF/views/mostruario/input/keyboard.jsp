@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Input Keyboard</title>
+		<title>.: Input Keyboard - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/jquery-ui.min.css" />" rel="stylesheet"></link>
 		<link href="<c:url value="/resources/layout/css/plugins/keyboard.min.css" />" rel="stylesheet"></link>
 	</head>

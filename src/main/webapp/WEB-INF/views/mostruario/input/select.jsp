@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Input Select</title>
+		<title>.: Input Select - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/plugins/select2.min.css" />" rel="stylesheet"></link>		
 	</head>
 	<body>

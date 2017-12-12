@@ -62,7 +62,7 @@
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/data/dataTable">DateTable</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
-					<li class="text-center">Dumby</li>
+					<li class="text-center"></li>
 				</ul>
 			</div>
 		</div>
@@ -120,11 +120,49 @@
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/card">Card</a></li>
+				</ul>
+				<ul class="col  list-unstyled">					
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/notificationBar">Notification Bar</a></li>
 				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-header  bg-primary" role="tab" id="headingSeven">
+			<h5 class="mb-0">
+				<a class="text-white" style="text-decoration: none;"
+					data-toggle="collapse" href="#collapseSeven" aria-expanded="false"
+					aria-controls="collapseSeven"> Multimedia </a>
+			</h5>
+		</div>
+		<div id="collapseSeven" class="collapse" role="tabpanel"
+			aria-labelledby="headingSeven" data-parent="#accordion">
+			<div class="row  mt4">
+				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/multimedia/imageSwitch">Image Switch</a></li>
+				</ul>
+				<ul class="col  list-unstyled">
+					<li class="text-center"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-header  bg-primary" role="tab" id="headingEight">
+			<h5 class="mb-0">
+				<a class="text-white" style="text-decoration: none;"
+					data-toggle="collapse" href="#collapseEight" aria-expanded="false"
+					aria-controls="collapseEight"> Overlay </a>
+			</h5>
+		</div>
+		<div id="collapseEight" class="collapse" role="tabpanel"
+			aria-labelledby="headingEight" data-parent="#accordion">
+			<div class="row  mt4">
 				<ul class="col  list-unstyled">
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/sideBar">Side Bar</a></li>
-					<li class="text-center">Dumby</li>
+				</ul>
+				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/sideBar">Tooltip</a></li>
 				</ul>
 			</div>
 		</div>

@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Input DataTable</title>
+		<title>.: Data DataTable - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/plugins/jquery.dataTables/bootstrap.css" />" rel="stylesheet"></link>		
 	</head>
 	<body>

@@ -3,16 +3,15 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Index</title>
+		<title>.: Index - Jquery Showcase - Tiago Sousa :.</title>
 	</head>
 	<body>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Nav.jsp"></jsp:include>
 		<main class="mt2" role="main">	
 	    	<div class="jumbotron">
 	        	<div class="container">
-	          		<h1 class="display-3">Olá, usuário!</h1>
-	          		<p>Este projeto foi criado com Spring MVC usando páginas JSP.</p>
-	          		<p><a class="btn btn-success btn-lg" href="/tssmj/sobre" role="button">Leia mais &raquo;</a></p>
+	          		<h3 class="display-4">Jquery Showcase!</h3>
+	          		<h4 class="mt3">Mostuário de exemplos Jquery conciliados ao Spring MVC</h4>
 	        	</div>
 	      	</div>
 	      	<div class="container">
@@ -21,9 +20,7 @@
 			      		<div class="card  text-white  bg-primary  mb-3  mt3">
 							<div class="card-header">Spring MVC</div>
 						  	<div class="card-body  text-justify">
-						    	<p>O Spring MVC é um framework que ajuda no desenvolvimento de aplicações web.</p>
-						    	<p>Com o objetivo de facilitar a implementação do padrão MVC.</p>
-						    	<p>Este framework conquistou rapidamente seu espaço tornando-se essencial nos projetos Java.</p>
+						    	<p>O Spring MVC é um framework que ajuda no desenvolvimento de aplicações web. Com o objetivo de facilitar a implementação do padrão MVC.</p>
 						  	</div>
 						</div>
 					</div>
@@ -32,7 +29,6 @@
 							<div class="card-header">JavaServer Pages</div>
 						  	<div class="card-body  text-justify">
 						    	<p>JSP é o acrônimo para Java Server Pages, uma linguagem criada pela SUN em 1999. Mesmo com o passar do tempo, o JSP é bastante utilizado.</p>
-						    	<p style="margin-bottom: 9px;">É possível escrever HTML com códigos JSP embutidos. Como o HTML é uma linguagem estática, o JSP será o responsável por criar dinamismo.</p>
 						  	</div>
 						</div>
 					</div>
@@ -40,8 +36,7 @@
 			      		<div class="card  text-white  bg-info  mb-3  mt3">
 							<div class="card-header">Sobre o autor</div>
 						  	<div class="card-body  text-justify">
-						    	<p>Neste projeto usaremos a versão 5 do Spring. Esta versão foi lançada em Setembro de 2017.</p>
-						    	<p style="margin-bottom: 9px;">O código-fonte do Spring 5 não é só totalmente compatível com Java 8, como também foi revisado para poder se beneficiar do uso de todas as funcionalidades do mesmo.</p>
+						    	<p>Possui mais de 12 anos de experiência na área de TI. Atualmente trabalha como Desenvolvedor Web Full-Stack com enfase na Tecnologia Java.</p>
 						  	</div>
 						</div>
 					</div>

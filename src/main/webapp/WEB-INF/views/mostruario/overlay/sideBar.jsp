@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Panel Side Bar</title>
+		<title>.: Panel Side Bar - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/plugins/slidebars.min.css" />" rel="stylesheet"></link>
 	</head>
 	<body>
@@ -36,6 +36,6 @@
 	    </main>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Footer.jsp"></jsp:include>
 		<script src="<c:url value="/resources/layout/js/plugins/slidebars.min.js" />" type="text/javascript"></script>
-		<script src="<c:url value="/resources/custom/js/panel/sideBar.js" />" type="text/javascript"></script>
+		<script src="<c:url value="/resources/custom/js/overlay/sideBar.js" />" type="text/javascript"></script>
 	</body>
 </html>

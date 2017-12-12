@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Messages Growl</title>
+		<title>.: Messages Growl - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/plugins/jquery.growl.css" />" rel="stylesheet"></link>		
 	</head>
 	<body>

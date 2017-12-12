@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Index</title>
+		<title>.: Mostruário - Jquery Showcase - Tiago Sousa :.</title>
 	</head>
 	<body>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Nav.jsp"></jsp:include>
@@ -13,7 +13,10 @@
         			<div class="col-md-3">
         				<jsp:include page="/WEB-INF/views/mostruario/MenuLateral.jsp"></jsp:include>
           			</div>
-          			<div class="col-md-9">			      		
+          			<div class="col-md-9">
+		          		<h3 class="display-4">Introdução</h3>
+		          		<h4 class="mt3">Os exemplos estão listados no menu a esquerda utilize-o para navegar.</h4>
+		          		<p class="mt3"></p>
 					</div>
 		      	</div>
 			</div>

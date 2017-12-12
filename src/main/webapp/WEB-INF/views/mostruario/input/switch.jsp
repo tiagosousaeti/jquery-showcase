@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Input Switch</title>
+		<title>.: Input Switch - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/plugins/bootstrap-switch.min.css" />" rel="stylesheet"></link>		
 	</head>
 	<body>

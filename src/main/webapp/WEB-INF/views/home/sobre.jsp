@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Index</title>
+		<title>.: Sobre - Jquery Showcase - Tiago Sousa :.</title>
 	</head>
 	<body>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Nav.jsp"></jsp:include>
@@ -11,8 +11,8 @@
         	<div class="container">
         		<div class="row">
         			<div class="col-md-12">
-	          			<h1>Sobre</h1>
-	          			<p class="lead">O objetivo deste projeto é demonstrar as vantagens do Spring MVC. O JSP foi selecionado pensando nos desenvolvedores que estão iniciando seus estudos em programação Java para Web.</p>
+	          			<h3 class="display-4">Sobre</h3>
+	          			<p class="lead">Este projeto tem por objetivo criar um mostuário de exemplos Jquery conciliados ao Spring MVC.</p>
           			</div>
           		</div>        	
 		      	<div class="row">
@@ -28,7 +28,7 @@
 					</div>
 					<div class="col-md-4">
 			      		<div class="card  text-white  bg-primary  mb-3  mt3">
-							<div class="card-header">Versão do Framework</div>
+							<div class="card-header">Versão do Spring Framework</div>
 						  	<div class="card-body  text-justify">
 						    	<p>Neste projeto usaremos a versão 5 do Spring. Esta versão foi lançada em Setembro de 2017.</p>
 						    	<p style="margin-bottom: 9px;">O código-fonte do Spring 5 não é só totalmente compatível com Java 8, como também foi revisado para poder se beneficiar do uso de todas as funcionalidades do mesmo.</p>

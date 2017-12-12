@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - File Upload</title>
+		<title>.: File Upload - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/plugins/upload.min.css" />" rel="stylesheet"></link>
 		<link href="<c:url value="/resources/custom/css/file/upload.css" />" rel="stylesheet"></link>
 	</head>

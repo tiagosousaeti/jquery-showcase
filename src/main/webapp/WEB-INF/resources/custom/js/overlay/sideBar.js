@@ -1,14 +1,14 @@
 var TSsmj = TSsmj || {};
 
-TSsmj.PanelSideBar = (function(){
+TSsmj.OverlaySideBar = (function(){
 	
-	function PanelSideBar(){
+	function OverlaySideBar(){
 		var bar = "";
 		this.sideBarEsquerda = $('.js-button-mostrar-esquerda');
 		this.sideBarDireita = $('.js-button-mostrar-direita');
 	}
 	
-	PanelSideBar.prototype.iniciar = function(){
+	OverlaySideBar.prototype.iniciar = function(){
 		this.bar = new slidebars();
         this.bar.init();
         this.sideBarEsquerda.on('click', botaoMostrarEsquerdaClick.bind(this));
@@ -27,10 +27,10 @@ TSsmj.PanelSideBar = (function(){
         this.bar.toggle('id-2');
 	}
 	
-	return PanelSideBar;	
+	return OverlaySideBar;	
 }());
 
 $(function() {
-	var panelSideBar = new TSsmj.PanelSideBar();
-	panelSideBar.iniciar();
+	var overlaySideBar = new TSsmj.OverlaySideBar();
+	overlaySideBar.iniciar();
 });

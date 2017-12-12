@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Input Text Editor</title>
+		<title>.: Input Text Editor - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/plugins/jquery-te-1.4.0.css" />" rel="stylesheet"></link>		
 	</head>
 	<body>

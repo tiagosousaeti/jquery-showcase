@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
-		<title>Spring MVC com JSP - Mostruário - Input AutoComplete</title>
+		<title>.: Input AutoComplete - Jquery Showcase - Tiago Sousa :.</title>
 		<link href="<c:url value="/resources/layout/css/plugins/easy-autocomplete.min.css" />" rel="stylesheet"></link>		
 	</head>
 	<body>
