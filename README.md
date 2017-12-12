@@ -4,13 +4,10 @@
 Criar um mostuário de exemplos Jquery conciliado ao Spring MVC
 
 ### Versão
-1.0.2.7
+1.0.3.1
 
 ## Clonando o projeto
-*** Requer o Git instalado na sua máquina
-
 Abra o terminal e digite: 'git clone https://github.com/tiagosousaeti/jquery-showcase'
-
 O git se encarregará de baixar o repositório
 
 ## Dependências
