@@ -18,17 +18,17 @@
 	      		<div class="row">
 		      		<div class="col-md-4">
 			      		<div class="card  text-white  bg-primary  mb-3  mt3">
-							<div class="card-header">Spring MVC</div>
+							<div class="card-header">Jquery</div>
 						  	<div class="card-body  text-justify">
-						    	<p>O Spring MVC é um framework que ajuda no desenvolvimento de aplicações web. Com o objetivo de facilitar a implementação do padrão MVC.</p>
+						    	<p>jQuery é uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador.</p>
 						  	</div>
 						</div>
 					</div>
 					<div class="col-md-4">
 			      		<div class="card  text-white  bg-dark  mb-3  mt3">
-							<div class="card-header">JavaServer Pages</div>
+							<div class="card-header">Spring MVC</div>
 						  	<div class="card-body  text-justify">
-						    	<p>JSP é o acrônimo para Java Server Pages, uma linguagem criada pela SUN em 1999. Mesmo com o passar do tempo, o JSP é bastante utilizado.</p>
+						    	<p>O Spring MVC é um framework que ajuda no desenvolvimento de aplicações web. Com o objetivo de facilitar a implementação do padrão MVC.</p>
 						  	</div>
 						</div>
 					</div>
