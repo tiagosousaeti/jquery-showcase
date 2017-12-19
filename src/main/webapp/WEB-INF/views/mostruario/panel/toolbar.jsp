@@ -5,7 +5,7 @@
 	<head>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Head.jsp"></jsp:include>
 		<title>.: Panel Wizard - Jquery Showcase - Tiago Sousa :.</title>
-		<link href="<c:url value="/resources/layout/css/plugins/jquery.steps.css" />" rel="stylesheet"></link>
+		<link href="<c:url value="/resources/layout/css/plugins/w2ui-1.5.rc1.min.css" />" rel="stylesheet"></link>
 	</head>
 	<body>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Nav.jsp"></jsp:include>
@@ -16,24 +16,12 @@
         				<jsp:include page="/WEB-INF/views/mostruario/MenuLateral.jsp"></jsp:include>
           			</div>
           			<div class="col-md-9">
-          				<h1>Panel - Wizard</h1>
-          				<p class="text-justify">Wizard</p>
-          				<h5>Powered by: <a href="http://www.jquery-steps.com/" target="_blank" title="Steps">Jquery Steps</a></h5>
+          				<h1>Panel - Toolbar</h1>
+          				<p class="text-justify">Toolbar</p>
+          				<h5>Powered by: <a href="http://w2ui.com/web/home" target="_blank" title="W2ui">w2ui</a></h5>
           				<hr>
-          				<div id="example-basic">
-						    <h3>Keyboard</h3>
-						    <section>
-						        <p>Try the keyboard navigation by clicking arrow left or right!</p>
-						    </section>
-						    <h3>Effects</h3>
-						    <section>
-						        <p>Wonderful transition effects.</p>
-						    </section>
-						    <h3>Pager</h3>
-						    <section>
-						        <p>The next and previous buttons help you to navigate through your content.</p>
-						    </section>
-						</div>
+          				<div id="toolbar">
+          				</div>
 						<ul class="nav  nav-tabs  mt3">
 							<li class="nav-item">
 						    	<a class="nav-link active" id="jsp-tab" data-toggle="tab" href="#jsp">JSP</a>
@@ -53,7 +41,7 @@
 			</div>
 	    </main>
 		<jsp:include page="/WEB-INF/views/layout/fragments/Footer.jsp"></jsp:include>
-		<script src="<c:url value="/resources/layout/js/plugins/jquery.steps.min.js" />" type="text/javascript"></script>
-		<script src="<c:url value="/resources/custom/js/panel/wizard.js" />" type="text/javascript"></script>
+		<script src="<c:url value="/resources/layout/js/plugins/w2ui-1.5.rc1.min.js" />" type="text/javascript"></script>
+		<script src="<c:url value="/resources/custom/js/panel/toolbar.js" />" type="text/javascript"></script>
 	</body>
 </html>

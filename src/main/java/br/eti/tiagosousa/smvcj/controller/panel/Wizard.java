@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class Wizard {
 
 	@GetMapping(value = "/mostruario/panel/wizard")
-	public ModelAndView exibirAjaxBasic(){
+	public ModelAndView exibirPanelWizard(){
 		return new ModelAndView("mostruario/panel/wizard").addObject("mostruarioActive", "true");
 	}
 }

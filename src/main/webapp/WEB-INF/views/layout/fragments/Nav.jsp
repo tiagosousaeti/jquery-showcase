@@ -8,7 +8,7 @@
 		</button>
 	
 		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<span class="navbar-brand">Jquery Showcase</span>
+			<span class="navbar-brand"><a href="/jqueryshowcase/" style="text-decoration: none;">Jquery Showcase</a></span>
 			<ul class="navbar-nav  ml-auto">
 				<li class="nav-item  nbpadding">
 					<a class="nav-link  ${homeActive ? 'active' : ''}" href="/jqueryshowcase/">Home <span class="sr-only">(current)</span></a>

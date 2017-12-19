@@ -106,6 +106,7 @@
 				</ul>
 				<ul class="col  list-unstyled">					
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/notificationBar">Notification Bar</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/toolbar">Toolbar</a></li>
 				</ul>
 			</div>
 		</div>

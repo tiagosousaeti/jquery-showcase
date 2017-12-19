@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class Draggable {
 
 	@GetMapping(value = "/mostruario/dragdrop/draggable")
-	public ModelAndView exibirAjaxBasic(){
+	public ModelAndView exibirDragdropDraggable(){
 		return new ModelAndView("mostruario/dragdrop/draggable").addObject("mostruarioActive", "true");
 	}
 }

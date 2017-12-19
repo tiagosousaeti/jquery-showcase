@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class NotificationBar {
 
 	@GetMapping(value = "/mostruario/panel/notificationBar")
-	public ModelAndView exibirAjaxBasic(){
+	public ModelAndView exibirPanelNotificationBar(){
 		return new ModelAndView("mostruario/panel/notificationBar").addObject("mostruarioActive", "true");
 	}
 }

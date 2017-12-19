@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class Card {
+public class Toolbar {
 
-	@GetMapping(value = "/mostruario/panel/card")
-	public ModelAndView exibirPanelCard(){
-		return new ModelAndView("mostruario/panel/card").addObject("mostruarioActive", "true");
+	@GetMapping(value = "/mostruario/panel/toolbar")
+	public ModelAndView exibirPanelToolbar(){
+		return new ModelAndView("mostruario/panel/toolbar").addObject("mostruarioActive", "true");
 	}
 }
