@@ -137,10 +137,11 @@
 		<div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordion">
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/overlay/modal">Modal</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/overlay/sideBar">Side Bar</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/overlay/animateScroll">Animate Scroll</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/overlay/modal">Modal</a></li>					
 				</ul>
 				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/overlay/sideBar">Side Bar</a></li>
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/overlay/toolTip">Tooltip</a></li>
 				</ul>
 			</div>
