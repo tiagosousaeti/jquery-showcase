@@ -30,13 +30,13 @@
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/autoComplete">AutoComplete</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/select">Select</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/keyboard">Keyboard</a></li>					
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/switch">Switch</a></li>
 				</ul>
 				<ul class="col  list-unstyled">
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/datepicker">Datepicker</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/textEditor">TextEditor</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/keyboard">Keyboard</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/datepicker">Datepicker</a></li>					
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/select">Select</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/input/textEditor">TextEditor</a></li>					
 				</ul>
 			</div>
 		</div>
@@ -102,11 +102,12 @@
 			<div class="row  mt4">
 				<ul class="col  list-unstyled">
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/card">Card</a></li>
-					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/wizard">Wizard</a></li>
-				</ul>
-				<ul class="col  list-unstyled">					
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/calendar">Calendar</a></li>
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/notificationBar">Notification Bar</a></li>
+				</ul>
+				<ul class="col  list-unstyled">										
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/toolbar">Toolbar</a></li>
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/wizard">Wizard</a></li>
 				</ul>
 			</div>
 		</div>
