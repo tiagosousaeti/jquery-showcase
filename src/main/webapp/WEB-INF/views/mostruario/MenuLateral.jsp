@@ -105,7 +105,8 @@
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/calendar">Calendar</a></li>
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/notificationBar">Notification Bar</a></li>
 				</ul>
-				<ul class="col  list-unstyled">										
+				<ul class="col  list-unstyled">
+					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/socials">Socials</a></li>										
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/toolbar">Toolbar</a></li>
 					<li class="text-center"><a class="${mostruarioActive ? 'active' : ''}" href="/jqueryshowcase/mostruario/panel/wizard">Wizard</a></li>
 				</ul>
